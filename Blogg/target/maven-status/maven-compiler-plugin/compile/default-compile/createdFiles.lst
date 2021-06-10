@@ -1,0 +1,6 @@
+com\te4\blogg\entity\Credentials.class
+com\te4\blogg\Post.class
+com\te4\blogg\ConnectionFactory.class
+com\te4\blogg\resources\PostResorce.class
+com\te4\blogg\JAXRSConfiguration.class
+com\te4\blogg\resources\PostResorce$PostsResorce.class
