@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "eng">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv= "X-UA-Compatible" content="ie=edge">
+    <title>Blogg</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+    <header class="main-head"><h1>Blogg</h1></header>
+        <section class="content">
+            <form>
+            <fieldset>
+                <legend>Create Post</legend>
+                <div >
+                    <div>
+                        <label>Content</label><br>
+                        <textarea name="content" maxlength="128" placeholder="Write here..." id="mTextarea"></textarea>
+                    </div>
+                    <div>
+                        <input type="button" name="mobilePost" value="Post" id="mPublishButton">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+     </section>
+    
+      <aside class="side">
+        <form id="myForm" action="loginform" method="post">
+    
+          <label for="uname"><b>Username</b></label>
+          <input type="text"id="Username" placeholder="Enter Username" >
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" id="password" placeholder="Enter Password" >
+              
+          <input type="button" onclick="logIn()" value="Submit form">
+   
+      
+      </form>
+    </aside>
+       
+
+
+<footer class="main-footer">Firiyal M Sheik, TE4</footer>
+</div>
+<script src="App.js"></script>
+</body>
+</html>
